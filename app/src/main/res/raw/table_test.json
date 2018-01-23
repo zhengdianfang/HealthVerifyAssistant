@@ -1,0 +1,571 @@
+{
+  "page": {
+    "title": "食品药品合规检查表",
+    "style": {
+      "text-align": "center",
+      "flex": "1",
+      "font-weight": "blod"
+    },
+    "form": {
+      "action": "/home/dosubmit",
+      "method": "pos",
+      "sections": [
+        {
+          "style": {
+            "flex": "1"
+          },
+          "rows": [
+            [
+              {
+                "type": "textbox",
+                "label": "保健食品名称",
+                "placeholder": "请输入保健食品名称",
+                "style": {
+                  "flex": "1",
+                  "text-align": "left"
+                },
+                "name": "n0_0",
+                "tag": "0.0",
+                "value": ""
+              }
+            ],
+            [
+              {
+                "type": "textbox",
+                "label": "受理编号",
+                "placeholder": "请输入受理编号",
+                "style": {
+                  "flex": "1",
+                  "text-align": "left"
+                },
+                "name": "n0_1",
+                "tag": "0.1",
+                "value": ""
+              }
+            ],
+            [
+              {
+                "type": "textbox",
+                "label": "申请人名称",
+                "placeholder": "请输入申请人名称",
+                "style": {
+                  "flex": "1",
+                  "text-align": "left"
+                },
+                "name": "n0_2",
+                "tag": "0.2",
+                "value": ""
+              }
+            ],
+            [
+              {
+                "type": "textbox",
+                "label": "联系人",
+                "placeholder": "请输入联系人",
+                "style": {
+                  "flex": "1",
+                  "text-align": "left"
+                },
+                "name": "n0_3",
+                "tag": "0.3",
+                "value": ""
+              }
+            ],
+            [
+              {
+                "type": "textbox",
+                "label": "联系人电话",
+                "placeholder": "请输入联系人电话",
+                "style": {
+                  "flex": "1",
+                  "text-align": "left"
+                },
+                "name": "n0_4",
+                "tag": "0.4",
+                "value": ""
+              }
+            ],
+            [
+              {
+                "type": "space",
+                "label": "",
+                "placeholder": "",
+                "style": {
+                  "flex": "1"
+                },
+                "name": "n0_5",
+                "tag": "0.5",
+                "value": ""
+              }
+            ],
+            [
+              {
+                "type": "textbox",
+                "label": "被核查单位名称",
+                "placeholder": "请输入被核查单位名称",
+                "style": {
+                  "flex": "1",
+                  "text-align": "left"
+                },
+                "name": "n0_6",
+                "tag": "0.6",
+                "value": ""
+              }
+            ],
+            [
+              {
+                "type": "textbox",
+                "label": "被核查单位地址",
+                "placeholder": "请输入被核查单位地址",
+                "style": {
+                  "flex": "1",
+                  "text-align": "left"
+                },
+                "name": "n0_7",
+                "tag": "0.7",
+                "value": ""
+              }
+            ],
+            [
+              {
+                "type": "textbox",
+                "label": "联系人",
+                "placeholder": "请输入联系人",
+                "style": {
+                  "flex": "1",
+                  "text-align": "left"
+                },
+                "name": "n0_8",
+                "tag": "0.8",
+                "value": ""
+              }
+            ],
+            [
+              {
+                "type": "textbox",
+                "label": "联系人电话",
+                "placeholder": "请输入联系人电话",
+                "style": {
+                  "flex": "1",
+                  "text-align": "left"
+                },
+                "name": "n0_9",
+                "tag": "0.9",
+                "value": ""
+              }
+            ],
+            [
+              {
+                "type": "space",
+                "label": "",
+                "placeholder": "",
+                "style": {
+                  "flex": "1"
+                },
+                "name": "n0_10",
+                "tag": "0.10",
+                "value": ""
+              }
+            ]
+          ]
+        },
+        {
+          "style": {
+            "flex": "1"
+          },
+          "rows": [
+            [
+              {
+                "type": "static",
+                "label": "研发现场核查内容",
+                "placeholder": "",
+                "style": {
+                  "flex": "1",
+                  "text-align": "center",
+                  "font-weight": "bold"
+                },
+                "tag": "1.0"
+              }
+            ],
+            [
+              {
+                "type": "static",
+                "label": "（非必查现场，在依据材料审查情况确定的核查内容后打“√”）",
+                "placeholder": "请输入受理编号",
+                "style": {
+                  "flex": "1",
+                  "text-align": "center"
+                },
+                "name": "n1_1",
+                "tag": "1.1"
+              }
+            ],
+            [
+              {
+                "type": "checkbox",
+                "label": "工艺研究现场",
+                "placeholder": "",
+                "style": {
+                  "flex": "1",
+                  "text-align": "left"
+                },
+                "name": "n1_2",
+                "tag": "1.2",
+                "value": ""
+              }
+            ],
+            [
+              {
+                "type": "checkbox",
+                "label": "产品技术要求研究现场",
+                "placeholder": "",
+                "style": {
+                  "flex": "1",
+                  "text-align": "left"
+                },
+                "name": "n1_2",
+                "tag": "1.3",
+                "value": ""
+              }
+            ],
+            [
+              {
+                "type": "checkbox",
+                "label": "注册申请人开展的卫生学、稳定性试验现场",
+                "placeholder": "",
+                "style": {
+                  "flex": "1",
+                  "text-align": "left"
+                },
+                "name": "n1_2",
+                "tag": "1.4",
+                "value": ""
+              }
+            ],
+            [
+              {
+                "type": "checkbox",
+                "label": "其他",
+                "placeholder": "",
+                "style": {
+                  "flex": "0.15",
+                  "text-align": "left"
+                },
+                "name": "n1_2",
+                "tag": "1.5",
+                "value": ""
+              },
+              {
+                "type": "static",
+                "label": "(",
+                "style": {
+                  "flex": "0.1"
+                }
+              },
+              {
+                "type": "textbox",
+                "placeholder": "请输入其他核查内容",
+                "style": {
+                  "flex": "0.85"
+                },
+                "name": "n1_6",
+                "tag": "1.6",
+                "value": ""
+              },
+              {
+                "type": "static",
+                "label": ")",
+                "style": {
+                  "flex": "0.1"
+                }
+              }
+            ],
+            [
+              {
+                "type": "space",
+                "label": "",
+                "placeholder": "",
+                "style": {
+                  "flex": "1"
+                },
+                "name": "n1_7",
+                "tag": "1.7",
+                "value": ""
+              }
+            ]
+          ]
+        },
+        {
+          "style": {
+            "flex": "1"
+          },
+          "rows": [
+            [
+              {
+                "type": "static",
+                "style": {
+                  "flex": "0.25",
+                  "font-weight": "bold",
+                  "text-align": "left"
+                },
+                "label": "核查内容"
+              },
+              {
+                "type": "static",
+                "style": {
+                  "flex": "0.45",
+                  "font-weight": "bold",
+                  "text-align": "left"
+                },
+                "label": "核查重点"
+              },
+              {
+                "type": "static",
+                "style": {
+                  "flex": "0.3",
+                  "font-weight": "bold",
+                  "text-align": "left"
+                },
+                "label": "核查意见"
+              }
+            ],
+            [
+              {
+                "type": "static",
+                "style": {
+                  "flex": "0.25",
+                  "text-align": "left"
+                },
+                "label": "设施和仪器设备",
+                "tag": "2.1.0"
+              },
+              {
+                "type": "static",
+                "style": {
+                  "flex": "0.45",
+                  "text-align": "left"
+                },
+                "label": "申请人是否具备研究项目需要的研究设施、设备和仪器，其功能、参数、设备及使用记录等是否与资料相符。",
+                "tag": "2.1.1"
+              },
+              {
+                "style": {
+                  "flex": "0.3",
+                  "text-align": "left"
+                },
+                "text": "",
+                "controls": [
+                  {
+                    "type": "textarea",
+                    "label": "",
+                    "placeholder": "",
+                    "style": {
+                      "flex": "1",
+                      "text-align": "left",
+                      "height": "100px"
+                    },
+                    "name": "n2_1_2_0",
+                    "tag": "2.1.2.0",
+                    "value": ""
+                  }
+                ],
+                "tag": "2.1.2"
+              }
+            ],
+            [
+              {
+                "style": {
+                  "flex": "0.25",
+                  "text-align": "left"
+                },
+                "text": "原始记录",
+                "tag": "2.2.0"
+              },
+              {
+                "style": {
+                  "flex": "0.45",
+                  "text-align": "left"
+                },
+                "text": "涉及的试验项目及数据原始记录是否与申报资料相符。\r\n   原始记录包括原料或试验样品来源、传递及管理记录，试验原始记录，仪器设备使用记录以及相关的其他内容。",
+                "tag": "2.2.1"
+              },
+              {
+                "style": {
+                  "flex": "0.3",
+                  "text-align": "left"
+                },
+                "text": "",
+                "controls": [
+                  {
+                    "type": "textarea",
+                    "label": "",
+                    "placeholder": "",
+                    "style": {
+                      "flex": "1",
+                      "text-align": "left",
+                      "height": "100px"
+                    },
+                    "name": "n2_2_2_0",
+                    "tag": "2.2.2.0",
+                    "value": ""
+                  }
+                ],
+                "tag": "2.2.2"
+              }
+            ]
+          ],
+          "tag": "2"
+        },
+        {
+          "style": {
+            "flex": "1"
+          },
+          "rows": [
+            [
+              {
+                "type": "space",
+                "label": "",
+                "placeholder": "",
+                "style": {
+                  "flex": "1"
+                },
+                "tag": "3.0"
+              }
+            ],
+            [
+              {
+                "type": "textarea",
+                "label": "核查小组意见",
+                "placeholder": "",
+                "style": {
+                  "flex": "1",
+                  "text-align": "left",
+                  "height": "100px"
+                },
+                "name": "n3_1",
+                "tag": "3.1",
+                "value": ""
+              }
+            ],
+            [
+              {
+                "type": "signature",
+                "label": "被核查人签名",
+                "placeholder": "",
+                "style": {
+                  "flex": "1",
+                  "text-align": "left"
+                },
+                "name": "n3_2",
+                "tag": "3.2",
+                "value": ""
+              }
+            ],
+            [
+              {
+                "type": "signature",
+                "label": "组长签名",
+                "placeholder": "",
+                "style": {
+                  "flex": "1",
+                  "text-align": "left"
+                },
+                "name": "n3_3",
+                "tag": "3.3",
+                "value": ""
+              }
+            ],
+            [
+              {
+                "type": "space",
+                "label": "",
+                "placeholder": "",
+                "style": {
+                  "flex": "1"
+                },
+                "tag": "3.4"
+              }
+            ],
+            [
+              {
+                "type": "date",
+                "label": "    年  月  日",
+                "placeholder": "",
+                "style": {
+                  "flex": "1",
+                  "text-align": "right"
+                },
+                "name": "n3_5",
+                "tag": "3.5",
+                "value": ""
+              }
+            ]
+          ],
+          "tag": "3"
+        },
+        {
+          "style": {
+            "flex": "1"
+          },
+          "rows": [
+            [
+              {
+                "type": "space",
+                "label": "",
+                "placeholder": "",
+                "style": {
+                  "flex": "1"
+                },
+                "tag": "4.0"
+              }
+            ],
+            [
+              {
+                "type": "textarea",
+                "label": "被核查单位意见",
+                "placeholder": "",
+                "style": {
+                  "flex": "1",
+                  "text-align": "left",
+                  "height": "100px"
+                },
+                "name": "n4_1",
+                "tag": "4.1",
+                "value": ""
+              }
+            ],
+            [
+              {
+                "type": "seal",
+                "label": "签章",
+                "placeholder": "",
+                "style": {
+                  "flex": "1",
+                  "text-align": "right"
+                },
+                "name": "n4_2",
+                "tag": "4.2",
+                "value": ""
+              }
+            ],
+            [
+              {
+                "type": "date",
+                "label": "    年  月  日",
+                "placeholder": "",
+                "style": {
+                  "flex": "1",
+                  "text-align": "right"
+                },
+                "name": "n4_3",
+                "tag": "4.3",
+                "value": ""
+              }
+            ]
+          ],
+          "tag": "3"
+        }
+      ]
+    }
+  }
+}

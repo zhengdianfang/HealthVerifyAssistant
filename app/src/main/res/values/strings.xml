@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">HealthVerifyAssistant</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="button_login_label">立即登录</string>
+    <string name="login_forget_password">忘记密码？</string>
+    <string name="login_registe_label">立即注册</string>
+    <string name="login_input_phone_number">输入手机号</string>
+    <string name="login_input_password">输入密码</string>
+</resources>
