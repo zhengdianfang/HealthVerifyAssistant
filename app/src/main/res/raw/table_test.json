@@ -248,7 +248,7 @@
                 "label": "其他",
                 "placeholder": "",
                 "style": {
-                  "flex": "0.15",
+                  "flex": "0.3",
                   "text-align": "left"
                 },
                 "name": "n1_2",
@@ -259,14 +259,14 @@
                 "type": "static",
                 "label": "(",
                 "style": {
-                  "flex": "0.1"
+                  "flex": "0.0"
                 }
               },
               {
                 "type": "textbox",
                 "placeholder": "请输入其他核查内容",
                 "style": {
-                  "flex": "0.85"
+                  "flex": "0.7"
                 },
                 "name": "n1_6",
                 "tag": "1.6",
@@ -276,7 +276,7 @@
                 "type": "static",
                 "label": ")",
                 "style": {
-                  "flex": "0.1"
+                  "flex": "0.0"
                 }
               }
             ],
@@ -349,31 +349,22 @@
                 "tag": "2.1.1"
               },
               {
+                "type": "textarea",
+                "label": "",
+                "placeholder": "",
                 "style": {
                   "flex": "0.3",
-                  "text-align": "left"
+                  "text-align": "left",
+                  "height": "100px"
                 },
-                "text": "",
-                "controls": [
-                  {
-                    "type": "textarea",
-                    "label": "",
-                    "placeholder": "",
-                    "style": {
-                      "flex": "1",
-                      "text-align": "left",
-                      "height": "100px"
-                    },
-                    "name": "n2_1_2_0",
-                    "tag": "2.1.2.0",
-                    "value": ""
-                  }
-                ],
-                "tag": "2.1.2"
+                "name": "n2_1_2_0",
+                "tag": "2.1.2.0",
+                "value": ""
               }
             ],
             [
               {
+                "type": "static",
                 "style": {
                   "flex": "0.25",
                   "text-align": "left"
@@ -382,6 +373,7 @@
                 "tag": "2.2.0"
               },
               {
+                "type": "static",
                 "style": {
                   "flex": "0.45",
                   "text-align": "left"
@@ -390,27 +382,17 @@
                 "tag": "2.2.1"
               },
               {
+                "type": "textarea",
+                "label": "",
+                "placeholder": "",
                 "style": {
                   "flex": "0.3",
-                  "text-align": "left"
+                  "text-align": "left",
+                  "height": "100px"
                 },
-                "text": "",
-                "controls": [
-                  {
-                    "type": "textarea",
-                    "label": "",
-                    "placeholder": "",
-                    "style": {
-                      "flex": "1",
-                      "text-align": "left",
-                      "height": "100px"
-                    },
-                    "name": "n2_2_2_0",
-                    "tag": "2.2.2.0",
-                    "value": ""
-                  }
-                ],
-                "tag": "2.2.2"
+                "name": "n2_2_2_0",
+                "tag": "2.2.2.0",
+                "value": ""
               }
             ]
           ],

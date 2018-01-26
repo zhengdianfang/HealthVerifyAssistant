@@ -20,7 +20,7 @@ class Section: Component() {
                 sectionObj.get("rows").asJsonArray?.forEach {
                     val componentList = mutableListOf<Component>()
                     it.asJsonArray?.forEach { componentElement ->
-                        val component = getComponentByType(componentElement)
+                        val component = getEntityByType(componentElement)
                         componentList.add(component)
                     }
                     rowsList.add(componentList)
@@ -30,7 +30,7 @@ class Section: Component() {
             section
         }
 
-        private fun getComponentByType (jsonElement: JsonElement?): Component {
+        private fun getEntityByType (jsonElement: JsonElement?): Component {
             val gson = Gson()
             var component = Component()
             when(jsonElement?.asJsonObject?.get("type")?.asString) {

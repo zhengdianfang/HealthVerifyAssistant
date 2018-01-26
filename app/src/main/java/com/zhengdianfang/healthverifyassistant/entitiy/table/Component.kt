@@ -8,11 +8,14 @@ import com.google.gson.annotations.SerializedName
 
 open class Component {
     @SerializedName("style")
-    var style: Style? = null
+    var style: Style = Style()
 
     @SerializedName("tip")
-    var tip: String? = null
+    var tip: String = ""
 
     @SerializedName("value")
-    var value: String? = null
+    var value: String = ""
+
+    @SerializedName("type")
+    var type = ""
 }

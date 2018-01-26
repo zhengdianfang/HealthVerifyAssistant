@@ -1,5 +1,6 @@
 package com.zhengdianfang.healthverifyassistant.entitiy.table
 
+import android.util.Log
 import com.google.gson.annotations.SerializedName
 
 /**
@@ -16,21 +17,31 @@ open class Style {
     var fontWeight: String = ""
 
     fun getAlign(): Align {
-        return Align.valueOf(this.align)
+        var enum = Align.LEFT
+        when(this.align) {
+            "left" -> enum = Align.LEFT
+            "right" -> enum = Align.RIGHT
+            "center" -> enum = Align.CENTER
+        }
+        return enum
     }
 
     fun getFontWeight(): FontWeight{
-        return FontWeight.valueOf(this.fontWeight)
+        var enum = FontWeight.NONE
+        when(this.align) {
+            "bold" -> enum = FontWeight.BOLD
+        }
+        return enum
     }
 }
 
-enum class Align(value: String) {
-    LEFT("left"),
-    RIGHT("right"),
-    CENTER("center")
+enum class Align {
+    LEFT,
+    RIGHT,
+    CENTER
 }
 
-enum class FontWeight(value: String) {
-    BOLD("bold"),
-    NONE("")
+enum class FontWeight {
+    BOLD,
+    NONE
 }
