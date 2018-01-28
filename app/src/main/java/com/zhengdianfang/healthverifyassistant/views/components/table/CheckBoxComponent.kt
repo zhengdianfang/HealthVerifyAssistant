@@ -1,6 +1,7 @@
 package com.zhengdianfang.healthverifyassistant.views.components.table
 
 import android.content.Context
+import android.view.Gravity
 import android.view.View
 import android.widget.LinearLayout
 import com.zhengdianfang.healthverifyassistant.R
@@ -15,6 +16,7 @@ class CheckBoxComponent(context: Context, entity: CheckBox) :
     override fun render(): View {
         val linear = LinearLayout(context)
         linear.orientation = LinearLayout.HORIZONTAL
+        linear.gravity = Gravity.CENTER_VERTICAL
         val textView = renderTextView(entity)
         textView.text = entity.label
         val layoutParams = LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT,

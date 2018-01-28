@@ -1,6 +1,5 @@
 package com.zhengdianfang.healthverifyassistant.views.components.table
 
-import android.app.DatePickerDialog
 import android.content.Context
 import android.support.v4.app.FragmentActivity
 import android.view.View
@@ -33,6 +32,7 @@ class DatePickerComponent(context: Context, entity: DatePicker) :
                 datePickDialog.show((context as FragmentActivity).fragmentManager, "datePicker")
             }
         }
+        textView.text = entity.label
         return textView
     }
 }

@@ -11,4 +11,7 @@ class TextArea: Component() {
     }
     @SerializedName("placeholder")
     var placeholder: String = ""
+
+    @SerializedName("label")
+    var label: String = ""
 }

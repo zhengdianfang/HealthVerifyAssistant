@@ -10,4 +10,8 @@
     <string name="login_registe_label">立即注册</string>
     <string name="login_input_phone_number">输入手机号</string>
     <string name="login_input_password">输入密码</string>
+    <string name="add_attachment_label">添加附件</string>
+    <string name="submit_label">提交</string>
+    <string name="reset_label">重置操作</string>
+    <string name="warn_label">无法执行？</string>
 </resources>

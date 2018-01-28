@@ -3,7 +3,6 @@ package com.zhengdianfang.healthverifyassistant.entitiy.table
 import com.google.gson.Gson
 import com.google.gson.JsonDeserializer
 import com.google.gson.JsonElement
-import com.google.gson.annotations.SerializedName
 
 /**
  * Created by dfgzheng on 22/01/2018.
@@ -48,6 +47,8 @@ class Section: Component() {
                     component = gson.fromJson<Signature>(jsonElement.toString(), Signature::class.java)
                 DatePicker.KEY ->
                     component = gson.fromJson<DatePicker>(jsonElement.toString(), DatePicker::class.java)
+                Seal.KEY ->
+                    component = gson.fromJson<Seal>(jsonElement.toString(), Seal::class.java)
             }
             return component
         }

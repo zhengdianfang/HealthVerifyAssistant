@@ -2,7 +2,8 @@
 <resources>
     <color name="colorPrimary">#377dff</color>
     <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
+    <color name="colorAccent">#377dff</color>
     <color name="tableTextColor">#333333</color>
     <color name="tableHintTextColor">#999999</color>
+    <drawable name="transparent">#00000000</drawable>
 </resources>
