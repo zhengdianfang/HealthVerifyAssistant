@@ -8,6 +8,7 @@
     <dimen name="btnTextSize">14sp</dimen>
     <dimen name="btnHeight">64dp</dimen>
     <dimen name="editTextSize">16sp</dimen>
+    <dimen name="titleTextSize">32sp</dimen>
     <dimen name="tableTextSize">14sp</dimen>
     <dimen name="text_margin_start">8dp</dimen>
     <dimen name="zero">0dp</dimen>
@@ -16,4 +17,7 @@
     <dimen name="form_vertical_margin">64dp</dimen>
     <dimen name="element_margin">8dp</dimen>
     <dimen name="signature_edit_width">200dp</dimen>
+    <dimen name="login_logo_size">88dp</dimen>
+    <dimen name="sms_code_button_width">160dp</dimen>
+    <dimen name="personal_fragment_width">500dp</dimen>
 </resources>

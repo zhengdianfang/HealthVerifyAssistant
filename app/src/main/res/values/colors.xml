@@ -6,4 +6,5 @@
     <color name="tableTextColor">#333333</color>
     <color name="tableHintTextColor">#999999</color>
     <drawable name="transparent">#00000000</drawable>
+    <drawable name="disable_btn_background">#bbbbbb</drawable>
 </resources>

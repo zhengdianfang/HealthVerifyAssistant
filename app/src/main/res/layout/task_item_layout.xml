@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:cardBackgroundColor="@android:color/white"
+    app:cardCornerRadius="5dp" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/taskTitleView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="光明牛奶过渡期营养质量合格审查任务"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:paddingVertical="16dp"
+            android:paddingHorizontal="16dp"
+            android:drawableRight="@drawable/ic_arrow"
+            android:textColor="@android:color/white"
+            android:background="@color/colorAccent"/>
+
+        <LinearLayout
+            android:id="@+id/organizationListView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_below="@id/taskTitleView">
+
+            <include layout="@layout/organization_item_layout" />
+            <include layout="@layout/organization_item_layout" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="审核\n被拒"
+            android:textSize="14sp"
+            android:gravity="top"
+            android:textColor="@color/tableTextColor"
+            android:paddingHorizontal="32dp"
+            android:paddingBottom="24dp"
+            android:paddingTop="8dp"
+            android:background="@drawable/ic_bookmark"/>
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

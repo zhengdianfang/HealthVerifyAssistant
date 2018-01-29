@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="32dp"
+    android:columnCount="4">
+
+    <TextView
+        android:layout_gravity="center_vertical"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textColor="@color/tableTextColor"
+        android:textSize="16sp"
+        android:layout_columnSpan="2"
+        android:layout_columnWeight="1"
+        tools:text="关于光明牛奶过滤营养成分达标是否合格的核查表" />
+
+    <ImageView
+        android:layout_gravity="center_vertical|right"
+        android:layout_marginRight="16dp"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:src="@drawable/ic_arrow"
+        android:tint="@color/colorAccent"/>
+
+    <Space android:layout_width="80dp"/>
+
+    <TextView
+        android:text="@string/people_count"
+        android:textColor="@color/tableHintTextColor"
+        android:textSize="16sp"
+        android:layout_marginTop="8dp"/>
+
+    <LinearLayout
+        android:layout_marginTop="8dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/current_progress"
+            android:textColor="@color/tableHintTextColor"
+            android:textSize="16sp"
+            android:gravity="right"
+            android:paddingLeft="48dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/current_progress"
+            android:textColor="@android:color/white"
+            android:textSize="14sp"
+            tools:text="未填写"
+            android:paddingHorizontal="16dp"
+            android:paddingVertical="4dp"
+            android:background="@drawable/table_status_background"/>
+    </LinearLayout>
+
+</GridLayout>

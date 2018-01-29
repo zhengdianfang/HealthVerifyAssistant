@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="2"
+    android:paddingVertical="16dp"
+    android:rowCount="3">
+
+    <TextView
+        android:layout_columnWeight="1"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="16dp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textColor="@color/tableTextColor"
+        android:textSize="18sp"
+        tools:text="北京市海淀区食品安全与监督研究院" />
+
+    <ImageView
+        android:layout_gravity="center_vertical"
+        android:layout_marginRight="16dp"
+        android:src="@drawable/scoplle_drawable" />
+
+    <LinearLayout
+        android:id="@+id/tableListView"
+        android:orientation="vertical"
+        android:layout_columnWeight="1"
+        android:layout_columnSpan="2">
+
+        <include layout="@layout/table_item_layout" />
+        <include layout="@layout/table_item_layout" />
+        <include layout="@layout/table_item_layout" />
+
+    </LinearLayout>
+
+    <ProgressBar
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_columnSpan="2"
+        android:layout_columnWeight="1"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:progress="40" />
+
+</GridLayout>
