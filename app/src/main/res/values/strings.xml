@@ -39,4 +39,15 @@
     <string name="submit_success_toast">提交成功</string>
     <string name="people_count">被核查人数：%d人</string>
     <string name="current_progress">当前进度：</string>
+    <string name="can_not_complete">任务无法完成</string>
+    <string name="unfilled">未填写</string>
+    <string name="filled">已填写</string>
+    <string name="vervifying">审核中</string>
+    <string name="vervify_fail">审核失败</string>
+    <string name="vervify_success">审核通过</string>
+    <string name="leader_info">组长信息:</string>
+    <string name="member_info">组员信息：</string>
+    <string name="task_name">任务名称：</string>
+    <string name="company_name">核查单位</string>
+    <string name="task_info">任务介绍</string>
 </resources>

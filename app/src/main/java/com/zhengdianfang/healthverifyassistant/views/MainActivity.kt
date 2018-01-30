@@ -1,8 +1,10 @@
 package com.zhengdianfang.healthverifyassistant
 
+import android.app.Fragment
 import android.os.Bundle
 import android.support.v4.view.GravityCompat
 import android.support.v7.app.AppCompatActivity
+import com.zhengdianfang.healthverifyassistant.views.HistoryFragment
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.app_bar_main.*
 
@@ -18,6 +20,14 @@ class MainActivity : AppCompatActivity(){
             } else {
                 drawer_layout.openDrawer(GravityCompat.START)
             }
+        }
+
+
+        historyToolbarButton.setOnClickListener {
+            val fragment = Fragment.instantiate(baseContext, HistoryFragment::class.java.name)
+            fragmentManager?.beginTransaction()?.add(android.R.id.content, fragment)
+                    ?.addToBackStack("history")
+                    ?.commit()
         }
     }
 

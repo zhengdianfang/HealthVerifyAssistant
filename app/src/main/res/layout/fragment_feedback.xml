@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:paddingTop="@dimen/statusBarHeight"
     tools:context="com.zhengdianfang.healthverifyassistant.views.LoginActivity"
     tools:ignore="MissingConstraints">
 
@@ -20,9 +21,9 @@
             style="@style/AppTheme.ToolbarButtonStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:paddingRight="16dp"
             android:layout_gravity="left"
             android:drawableTop="@drawable/ic_back"
+            android:paddingRight="16dp"
             android:text="@string/back_title" />
 
         <TextView
@@ -51,14 +52,14 @@
             android:id="@+id/versionTextView"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:background="@drawable/transparent"
+            android:gravity="top"
+            android:hint="@string/please_input_feedback"
             android:lines="13"
             android:padding="8dp"
-            android:textColorHint="@color/tableHintTextColor"
-            android:hint="@string/please_input_feedback"
-            android:background="@drawable/transparent"
             android:textColor="@color/tableTextColor"
-            android:textSize="20sp"
-            android:gravity="top" />
+            android:textColorHint="@color/tableHintTextColor"
+            android:textSize="20sp" />
     </android.support.v7.widget.CardView>
 
     <Button

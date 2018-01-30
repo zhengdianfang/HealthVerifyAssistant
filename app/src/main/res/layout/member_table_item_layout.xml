@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingHorizontal="16dp"
+    android:paddingTop="16dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:columnCount="3">
+
+    <TextView
+        android:id="@+id/nameTextView"
+        style="@style/AppTheme.InfoTextStyle"
+        android:layout_columnSpan="3"
+        tools:text="123123"/>
+
+    <TextView
+        android:id="@+id/organizationNameTextView"
+        style="@style/AppTheme.InfoTextStyle"
+        android:textColor="@color/tableHintTextColor"
+        android:layout_marginTop="8dp"
+        android:layout_columnWeight="1"
+        tools:text="123123"/>
+
+    <TextView
+        android:id="@+id/statusView"
+        style="@style/AppTheme.InfoTextStyle"
+        android:layout_marginTop="8dp"
+        tools:text="123123"/>
+
+    <ImageView
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/ic_arrow"
+        android:tint="@color/colorAccent"/>
+
+    <View android:layout_height="1px"
+        android:layout_columnSpan="3"
+        android:layout_marginTop="16dp"
+        android:background="@color/tableTextColor"/>
+
+</GridLayout>

@@ -8,6 +8,7 @@
     android:rowCount="3">
 
     <TextView
+        android:id="@+id/organizationNameView"
         android:layout_columnWeight="1"
         android:layout_gravity="center_vertical"
         android:layout_marginLeft="16dp"
@@ -17,23 +18,18 @@
         android:textSize="18sp"
         tools:text="北京市海淀区食品安全与监督研究院" />
 
-    <ImageView
+    <CheckBox
+        android:id="@+id/expandView"
         android:layout_gravity="center_vertical"
         android:layout_marginRight="16dp"
-        android:src="@drawable/scoplle_drawable" />
+        android:button="@drawable/expend_button" />
 
     <LinearLayout
         android:id="@+id/tableListView"
         android:orientation="vertical"
         android:layout_columnWeight="1"
-        android:layout_columnSpan="2">
-
-        <include layout="@layout/table_item_layout" />
-        <include layout="@layout/table_item_layout" />
-        <include layout="@layout/table_item_layout" />
-
-    </LinearLayout>
-
+        android:layout_columnSpan="2"
+        android:visibility="gone"/>
     <ProgressBar
         style="@style/Widget.AppCompat.ProgressBar.Horizontal"
         android:layout_columnSpan="2"

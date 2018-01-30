@@ -1,0 +1,374 @@
+[
+  {
+    "title": "光明牛奶过渡期营养质量合格审查任务",
+    "members": [
+      {
+        "name": "谢晓宇",
+        "phoneNumber": "18577778888",
+        "company": "北京市营养所",
+        "position": "研究员",
+        "location": "北京 北京市 海淀区",
+        "type": 1
+      },
+      {
+        "name": "刘楠",
+        "phoneNumber": "18577778888",
+        "company": "北京市营养所",
+        "position": "研究员",
+        "location": "北京 北京市 海淀区",
+        "type": 2
+      },
+      {
+        "name": "沈静",
+        "phoneNumber": "18577778888",
+        "company": "北京市营养所",
+        "position": "研究员",
+        "location": "北京 北京市 海淀区",
+        "type": 2
+      }
+    ],
+    "organizations": [
+      {
+        "name": "北京市海淀区食品安全与监督研究院",
+        "tables": [
+          {
+            "name": "关于光明牛奶过滤营养成分达标是否合格的核查表",
+            "status": 0,
+            "verifiedPersonCount": 10,
+            "members": [
+              {
+                "name": "齐小飞",
+                "organizationName": "上海市食品药品监督管理局",
+                "status": 0
+              },
+              {
+                "name": "李秀烂",
+                "organizationName": "上海市食品药品监督管理局",
+                "status": 1
+              },
+              {
+                "name": "张三",
+                "organizationName": "上海市食品药品监督管理局",
+                "status": 2
+              },
+              {
+                "name": "李四",
+                "organizationName": "上海市食品药品监督管理局",
+                "status": 3
+              },
+              {
+                "name": "五五",
+                "organizationName": "上海市食品药品监督管理局",
+                "status": 4
+              },
+              {
+                "name": "六六",
+                "organizationName": "上海市食品药品监督管理局",
+                "status": 5
+              }
+            ]
+          },
+          {
+            "name": "关于光明牛奶过滤营养成分达标是否合格的核查表",
+            "status": 1,
+            "verifiedPersonCount": 3,
+            "members": [
+              {
+                "name": "齐小飞",
+                "organizationName": "上海市食品药品监督管理局",
+                "status": 0
+              },
+              {
+                "name": "李秀烂",
+                "organizationName": "上海市食品药品监督管理局",
+                "status": 1
+              },
+              {
+                "name": "张三",
+                "organizationName": "上海市食品药品监督管理局",
+                "status": 2
+              },
+              {
+                "name": "李四",
+                "organizationName": "上海市食品药品监督管理局",
+                "status": 3
+              },
+              {
+                "name": "五五",
+                "organizationName": "上海市食品药品监督管理局",
+                "status": 4
+              },
+              {
+                "name": "六六",
+                "organizationName": "上海市食品药品监督管理局",
+                "status": 5
+              }
+            ]
+          },
+          {
+            "name": "关于光明牛奶过滤营养成分达标是否合格的核查表",
+            "status": 2,
+            "verifiedPersonCount": 2,
+            "members": [
+              {
+                "name": "齐小飞",
+                "organizationName": "上海市食品药品监督管理局",
+                "status": 0
+              },
+              {
+                "name": "李秀烂",
+                "organizationName": "上海市食品药品监督管理局",
+                "status": 1
+              },
+              {
+                "name": "张三",
+                "organizationName": "上海市食品药品监督管理局",
+                "status": 2
+              },
+              {
+                "name": "李四",
+                "organizationName": "上海市食品药品监督管理局",
+                "status": 3
+              },
+              {
+                "name": "五五",
+                "organizationName": "上海市食品药品监督管理局",
+                "status": 4
+              },
+              {
+                "name": "六六",
+                "organizationName": "上海市食品药品监督管理局",
+                "status": 5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "光明牛奶过渡期营养质量合格审查任务",
+    "members": [
+      {
+        "name": "谢晓宇",
+        "phoneNumber": "18577778888",
+        "company": "北京市营养所",
+        "position": "研究员",
+        "location": "北京 北京市 海淀区",
+        "type": 1
+      },
+      {
+        "name": "刘楠",
+        "phoneNumber": "18577778888",
+        "company": "北京市营养所",
+        "position": "研究员",
+        "location": "北京 北京市 海淀区",
+        "type": 2
+      },
+      {
+        "name": "沈静",
+        "phoneNumber": "18577778888",
+        "company": "北京市营养所",
+        "position": "研究员",
+        "location": "北京 北京市 海淀区",
+        "type": 2
+      }
+    ],
+    "organizations": [
+      {
+        "name": "北京市海淀区食品安全与监督研究院",
+        "tables": [
+          {
+            "name": "关于光明牛奶过滤营养成分达标是否合格的核查表",
+            "status": 3,
+            "verifiedPersonCount": 30,
+            "members": [
+              {
+                "name": "齐小飞",
+                "organizationName": "上海市食品药品监督管理局",
+                "status": 0
+              },
+              {
+                "name": "李秀烂",
+                "organizationName": "上海市食品药品监督管理局",
+                "status": 1
+              },
+              {
+                "name": "张三",
+                "organizationName": "上海市食品药品监督管理局",
+                "status": 2
+              },
+              {
+                "name": "李四",
+                "organizationName": "上海市食品药品监督管理局",
+                "status": 3
+              },
+              {
+                "name": "五五",
+                "organizationName": "上海市食品药品监督管理局",
+                "status": 4
+              },
+              {
+                "name": "六六",
+                "organizationName": "上海市食品药品监督管理局",
+                "status": 5
+              }
+            ]
+          },
+          {
+            "name": "关于光明牛奶过滤营养成分达标是否合格的核查表",
+            "status": 4,
+            "verifiedPersonCount": 1,
+            "members": [
+              {
+                "name": "齐小飞",
+                "organizationName": "上海市食品药品监督管理局",
+                "status": 0
+              },
+              {
+                "name": "李秀烂",
+                "organizationName": "上海市食品药品监督管理局",
+                "status": 1
+              },
+              {
+                "name": "张三",
+                "organizationName": "上海市食品药品监督管理局",
+                "status": 2
+              },
+              {
+                "name": "李四",
+                "organizationName": "上海市食品药品监督管理局",
+                "status": 3
+              },
+              {
+                "name": "五五",
+                "organizationName": "上海市食品药品监督管理局",
+                "status": 4
+              },
+              {
+                "name": "六六",
+                "organizationName": "上海市食品药品监督管理局",
+                "status": 5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "北京市海淀区食品安全与监督研究院",
+        "tables": [
+          {
+            "name": "关于光明牛奶过滤营养成分达标是否合格的核查表",
+            "status": 5,
+            "verifiedPersonCount": 2,
+            "members": [
+              {
+                "name": "齐小飞",
+                "organizationName": "上海市食品药品监督管理局",
+                "status": 0
+              },
+              {
+                "name": "李秀烂",
+                "organizationName": "上海市食品药品监督管理局",
+                "status": 1
+              },
+              {
+                "name": "张三",
+                "organizationName": "上海市食品药品监督管理局",
+                "status": 2
+              },
+              {
+                "name": "李四",
+                "organizationName": "上海市食品药品监督管理局",
+                "status": 3
+              },
+              {
+                "name": "五五",
+                "organizationName": "上海市食品药品监督管理局",
+                "status": 4
+              },
+              {
+                "name": "六六",
+                "organizationName": "上海市食品药品监督管理局",
+                "status": 5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "光明牛奶过渡期营养质量合格审查任务",
+    "members": [
+      {
+        "name": "谢晓宇",
+        "phoneNumber": "18577778888",
+        "company": "北京市营养所",
+        "position": "研究员",
+        "location": "北京 北京市 海淀区",
+        "type": 1
+      },
+      {
+        "name": "刘楠",
+        "phoneNumber": "18577778888",
+        "company": "北京市营养所",
+        "position": "研究员",
+        "location": "北京 北京市 海淀区",
+        "type": 2
+      },
+      {
+        "name": "沈静",
+        "phoneNumber": "18577778888",
+        "company": "北京市营养所",
+        "position": "研究员",
+        "location": "北京 北京市 海淀区",
+        "type": 2
+      }
+    ],
+    "organizations": [
+      {
+        "name": "北京市海淀区食品安全与监督研究院",
+        "tables": [
+          {
+            "name": "关于光明牛奶过滤营养成分达标是否合格的核查表",
+            "status": 5,
+            "verifiedPersonCount": 2,
+            "members": [
+              {
+                "name": "齐小飞",
+                "organizationName": "上海市食品药品监督管理局",
+                "status": 0
+              },
+              {
+                "name": "李秀烂",
+                "organizationName": "上海市食品药品监督管理局",
+                "status": 1
+              },
+              {
+                "name": "张三",
+                "organizationName": "上海市食品药品监督管理局",
+                "status": 2
+              },
+              {
+                "name": "李四",
+                "organizationName": "上海市食品药品监督管理局",
+                "status": 3
+              },
+              {
+                "name": "五五",
+                "organizationName": "上海市食品药品监督管理局",
+                "status": 4
+              },
+              {
+                "name": "六六",
+                "organizationName": "上海市食品药品监督管理局",
+                "status": 5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

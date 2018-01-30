@@ -5,6 +5,10 @@
     <color name="colorAccent">#377dff</color>
     <color name="tableTextColor">#333333</color>
     <color name="tableHintTextColor">#999999</color>
+    <color name="verify_success">#44b394</color>
+    <color name="verify_fail">#de6e65</color>
+    <color name="unfilled">#AFCBFF</color>
+    <color name="filled">#5f98ff</color>
     <drawable name="transparent">#00000000</drawable>
     <drawable name="disable_btn_background">#bbbbbb</drawable>
 </resources>
